@@ -1,5 +1,5 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 const express = require('express');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 
