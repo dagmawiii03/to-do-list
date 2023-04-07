@@ -9,10 +9,10 @@ let todoList = [
 let currentTask = '';
 
 const deleteHandler = () => {
-    todoList = todoList.filter((todo)=> todo.index !== Number(currentTask))
-    const removeList = document.getElementById(currentTask);
-    removeList.remove();
-}
+  todoList = todoList.filter((todo) => todo.index !== Number(currentTask));
+  const removeList = document.getElementById(currentTask);
+  removeList.remove();
+};
 
 const todos = document.querySelector('.todos');
 
@@ -33,39 +33,31 @@ todoList
     />
 </div>
   `;
-  const icon = document.createElement('span');
-  icon.innerHTML = "<i class='fa-solid fa-ellipsis-vertical'></i>";
-  li.appendChild(icon);
+    const icon = document.createElement('span');
+    icon.innerHTML = "<i class='fa-solid fa-ellipsis-vertical'></i>";
+    li.appendChild(icon);
 
-  icon.addEventListener(
-    'click',
-    () => icon.getAttribute('icon') === 'delete' && deleteHandler(),
-  );
+    icon.addEventListener(
+      'click',
+      () => icon.getAttribute('icon') === 'delete' && deleteHandler(),
+    );
 
-  li.addEventListener('click', () => {
-    currentTask = li.id;
-    const allInput = document.querySelectorAll('span');
-    allInput.forEach((i) => {
-      i.innerHTML = "<i class='fa-solid fa-ellipsis-vertical'></i>";
-      i.setAttribute('icon', 'move');
-      i.style.color = 'black';
-    });
-    icon.innerHTML = "<i class='fa-solid fa-trash-can'></i>";
+    li.addEventListener('click', () => {
+      currentTask = li.id;
+      const allInput = document.querySelectorAll('span');
+      allInput.forEach((i) => {
+        i.innerHTML = "<i class='fa-solid fa-ellipsis-vertical'></i>";
+        i.setAttribute('icon', 'move');
+        i.style.color = 'black';
+      });
+      icon.innerHTML = "<i class='fa-solid fa-trash-can'></i>";
       icon.setAttribute('icon', 'delete');
       icon.style.color = 'red';
     });
     todos.appendChild(li);
   });
 
-  const clear = document.createElement('li');
-  clear.classList.add('clear');
-  clear.innerHTML = 'Clear all completed';
-  todos.appendChild(clear);
-
-
-    
-
-
-
-
-  
+const clear = document.createElement('li');
+clear.classList.add('clear');
+clear.innerHTML = 'Clear all completed';
+todos.appendChild(clear);
