@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://dagmawiii03.github.io/to-do-list/)
 
 <!-- GETTING STARTED -->
 
@@ -116,8 +116,6 @@ Start python server and open http://localhost:8000
 - **Add Installation mechanism for the web app**
 
 ## 🔭 Video <a name="explain"></a>
-
-- [video](https://www.loom.com/share/9d3c9f0b8e6c421a9741276878958768)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
