@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 First Capstone <a name="about-project"></a>
+# 📖 To-do-list <a name="about-project"></a>
 
 > This site is built as part of an exercise at Microverse. The site is about a Todo List
 
@@ -70,14 +70,6 @@
 - **list structure**
 - **add and remove funcitonality**
 - **Build interactivelist**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo](https://dagmawiii03.github.io/to-do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
