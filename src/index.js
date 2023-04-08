@@ -1,18 +1,29 @@
 import './style.css';
-
-let todoList = [
-  { description: 'workout', completed: true, index: 3 },
-  { description: 'work on open source proj', completed: false, index: 2 },
-  { description: 'finish up microverse tasks', completed: true, index: 1 },
-];
+import { add, removeTask } from './addRemove.js';
+import todoList from './TodoList.js';
 
 let currentTask = '';
 
-const deleteHandler = () => {
-  todoList = todoList.filter((todo) => todo.index !== Number(currentTask));
-  const removeList = document.getElementById(currentTask);
-  removeList.remove();
-};
+let inputDesc = '';
+
+const addBtn = document.querySelector('.add-btn');
+
+const input = document.getElementById('input');
+
+const clear = document.createElement('li');
+clear.classList.add('clear');
+clear.innerHTML = 'Clear all completed';
+
+addBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  add(inputDesc, currentTask);
+  inputDesc = '';
+  input.value = inputDesc;
+});
+
+input.addEventListener('keyup', (e) => {
+  inputDesc = e.target.value;
+});
 
 const todos = document.querySelector('.todos');
 
@@ -39,7 +50,7 @@ todoList
 
     icon.addEventListener(
       'click',
-      () => icon.getAttribute('icon') === 'delete' && deleteHandler(),
+      () => icon.getAttribute('icon') === 'delete' && removeTask(currentTask),
     );
 
     li.addEventListener('click', () => {
@@ -55,9 +66,16 @@ todoList
       icon.style.color = 'red';
     });
     todos.appendChild(li);
+    todos.append(clear);
+    li.addEventListener('keyup', (e) => {
+      const update = todoList.map((todo) => {
+        if (todo.index === Number(li.id)) {
+          todo.description = e.target.value;
+          return todo;
+        }
+        return todo;
+      });
+      todoList.splice(0, todoList.length, ...update);
+      localStorage.setItem('todoList', JSON.stringify(todoList));
+    });
   });
-
-const clear = document.createElement('li');
-clear.classList.add('clear');
-clear.innerHTML = 'Clear all completed';
-todos.appendChild(clear);
