@@ -1,5 +1,5 @@
 import todoList from './TodoList.js';
-//import module
+
 const clear = document.createElement('li');
 clear.classList.add('clear');
 clear.innerHTML = 'Clear all completed';
@@ -21,13 +21,9 @@ export const removeTask = (currentItem) => {
     });
   }
   localStorage.setItem('todoList', JSON.stringify(todoList));
-  // const removeList = document.getElementById(currentItem);
-  // removeList?.remove();
 };
 
 export const add = (item) => {
-  // const clearRemove = document.querySelectorAll('.clear');
-  // clearRemove.forEach((cl) => cl.remove());
   todoList.push({
     description: item,
     completed: false,
