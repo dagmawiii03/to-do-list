@@ -1,11 +1,3 @@
-# to-do-list
-
-<a name="readme-top"></a>
-
-<h1 align="center" style="font-family: Serif; font-size: 3.5em;">To-Do-List</h1>
-
-<!-- TABLE OF CONTENTS -->
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -14,7 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -24,41 +16,60 @@
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [Explanation-Video](#explain)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 About the Project <a name="about-project"></a>
+# 📖 First Capstone <a name="about-project"></a>
 
-> Build mobile first based online website for a conference using given design guidelines from [behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and customize it on my own
+> This site is built as part of an exercise at Microverse. The site is about a Todo List
+
+**The Todo List project** i
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Media Queries
-- Stylelint
-- Webhint
-- HTML & CSS
-
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML
-- CSS
-- javascript
-- Stylelint
-- Webhint
+> This project is built with HTML and CSS and javascript for the most part.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">Live server</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Webpack</summary>
+  <ul>
+    <li><a href="#">webpack</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">No Databse</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> The key features of the application includes
-
-- **Simplicity**
-- **Responsive web design**
-- **Progressive Enhancement**
+- **list structure**
+- **add and remove funcitonality**
+- **Build interactivelist**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,80 +77,104 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://dagmawiii03.github.io/to-do-list/)
+- [Live Demo](https://dagmawiii03.github.io/to-do-list/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> This project is made using Mostly HTML and CSS
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need to follow the below steps
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:dagmawiii03/to-do-list
+  cd my-folder
+  git clone https://github.com/dagmawiii03/to-do-list.git
 ```
+
+-
 
 ### Install
 
 Install this project with:
 
+No installation needed
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
 ```sh
-  cd to-do-list
-  npm install
+ index.html
 ```
+--->
 
 ### Deployment
 
-Start python server and open http://localhost:8000
+You can deploy this project using github pages
 
-```c
-  python -m http.server 8000
-  http://localhost:8000
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👤 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-**Dagmawi Yohannes**
+👤 **Author: Abel Tsegaye**
 
-- [Github](https://github.com/dagmawiii03)
-- [LinkedIn](linkedin.com/in/dagmawi-yohannes-b36488236)
+- GitHub: [@githubhandle](https://github.com/dagmawiii03)
+- Twitter: [@twitterhandle](https://twitter.com/dag_mawi111)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dagmawi-yohannes-b36488236)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> 3 features that I will add to the project.
+> In the Future the project may include
 
-- **Make it responsive on a desktop**
-- **Add Javascript to interact more on the web app**
-- **Add Installation mechanism for the web app**
+- [ ] **Live Chat**
+- [ ] **Twitter Feed**
+- [ ] **Youtube Integration**
 
-## 🔭 Video <a name="explain"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, problem fixes, and feature requests are all appreciated!
+Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/dagmawiii03/to-do-list/issues).
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> All kind of support is appreciated as well.
+If you like this project you can buy me coffee. Contact detail is above.
 
-## ⭐️ Acknowladgement <a name="acknowledgements"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Mivroverse
+<!-- ACKNOWLEDGEMENTS -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- **How to make a responsive web app**
-
-  - employing specific, targeted media-queries
-
-- **How to run linter setup on html & css**
-
-  - by using `npx hint .` and `npx stylelint "**/*.{css,scss}"`
+Thank you Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
