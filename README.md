@@ -132,7 +132,7 @@ You can deploy this project using github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author: Abel Tsegaye**
+👤 **Author: Dagmawi Yohannes**
 
 - GitHub: [@githubhandle](https://github.com/dagmawiii03)
 - Twitter: [@twitterhandle](https://twitter.com/dag_mawi111)
