@@ -1,5 +1,6 @@
 import './style.css';
 import { add, removeTask } from './addRemove.js';
+import renderList from './renderList.js';
 import todoList from './TodoList.js';
 
 let currentTask = '';
