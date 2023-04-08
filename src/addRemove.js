@@ -1,5 +1,5 @@
 import todoList from './TodoList.js';
-
+//import module
 const clear = document.createElement('li');
 clear.classList.add('clear');
 clear.innerHTML = 'Clear all completed';
