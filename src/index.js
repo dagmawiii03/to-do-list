@@ -16,7 +16,7 @@ clear.innerHTML = 'Clear all completed';
 
 addBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  add(inputDesc, currentItem);
+  add(inputDesc, currentTask);
   inputDesc = '';
   input.value = inputDesc;
 });
