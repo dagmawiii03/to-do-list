@@ -27,7 +27,7 @@
 
 > This site is built as part of an exercise at Microverse. The site is about a Todo List
 
-**The Todo List project** i
+**The Todo List project**
 
 ## 🛠 Built With <a name="built-with"></a>
 
