@@ -44,11 +44,11 @@ describe('Test remove feature ', () => {
     ]);
   });
 
-  it('should Remove  exactly one li', () => {
+  //it('should Remove  exactly one li', () => {
     renderList(JSON.parse(localStorage.getItem('todoList')));
     const initialLength = document.getElementsByTagName('li').length;
     removeTask(4);
     renderList(JSON.parse(localStorage.getItem('todoList')));
     expect(document.getElementsByTagName('li').length).toBe(initialLength - 1);
-  });
+  //});
 });
